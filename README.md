@@ -58,7 +58,8 @@ The data transformation was finished using Power Query, and now the dataset is l
 4. = Table.ReplaceValue(#"Replaced Value2","Credit card (automatic)","Credit Card",Replacer.ReplaceText,{"PaymentMethod"})
 - Replaced Column Names of customerID, gender, tenure as given below:
 = Table.RenameColumns(#"Replaced Value3",{{"customerID", "CustomerID"}, {"gender", "Gender"}, {"tenure", "Tenure"}})
-3.In the new table, two additional conditional columns were added using M-formula:
+
+3. In the new table, two additional conditional columns were added using M-formula:
 1. = CitizenshipStatus = IF('ChurnDataset'[SeniorCitizen] = 0, "Young Citizen", "Senior Citizen")
 2. = ChurnStatus = IF('ChurnDataset'[Churn] = "Yes", "Churned", "Retained")
 

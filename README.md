@@ -30,11 +30,11 @@ The dataset is a Microsoft Excel file that contains one table, consisting of **7
 
 # Skills
 
-<tab> - Data Cleaning
-<tab> - Data Inspection
-<tab> - Data Transformation
-<tab> - Data Standardization
-<tab> - Data Visualization
+- Data Cleaning
+- Data Inspection
+- Data Transformation
+- Data Standardization
+- Data Visualization
 > **Data Inspection**: Visually inspect the data to identify errors, inconsistencies, or missing values.
 
 > **Data Transformation**: Converting data from one format or structure to another, to make it more suitable for a specific task or analysis.
@@ -76,17 +76,17 @@ The customer churn tables as shown below:
 
 Measures used in all visualization are:
 
-- Total Customers = > COUNT(ChurnDataset[CustomerID])
-- Churned Customers = > CALCULATE(COUNTA('ChurnDataset'[CustomerID]), 'ChurnDataset'[Churn] IN { "Yes" })
-- Retained Customers = > CALCULATE(COUNTA('ChurnDataset'[CustomerID]), 'ChurnDataset'[Churn] IN { "No" })
-- Percent of Churned Customer = > (ChurnDataset[Churned Customers] / [Total Customers])
-- Percent of Retained Customers = > ([Retained Customers] / [Total Customers])
-- Churn Rate % = > ChurnDataset[Churned Customers] / COUNT(ChurnDataset[CustomerID])
-- ChurnStatus = > IF('ChurnDataset'[Churn] = "Yes", "Churned", "Retained")
-- Monthly Revenue Loss = > CALCULATE(SUM(ChurnDataset[MonthlyCharges]), ChurnDataset[Churn] = "Yes")
-- Revenue Loss % = > DIVIDE([Monthly Revenue Loss], SUM('ChurnDataset'[MonthlyCharges]), 0)
-- CitizenshipStatus = > IF('ChurnDataset'[SeniorCitizen] = 0, "Young Citizen", "Senior Citizen")
-- PaymentMode = > IF(OR('ChurnDataset'[PaymentMethod] = "Electronic Check", 'ChurnDataset'[PaymentMethod] = "Mailed Check"), "Manual", "Automatic")
+- Total Customers = COUNT(ChurnDataset[CustomerID])
+- Churned Customers = CALCULATE(COUNTA('ChurnDataset'[CustomerID]), 'ChurnDataset'[Churn] IN { "Yes" })
+- Retained Customers = CALCULATE(COUNTA('ChurnDataset'[CustomerID]), 'ChurnDataset'[Churn] IN { "No" })
+- Percent of Churned Customer = (ChurnDataset[Churned Customers] / [Total Customers])
+- Percent of Retained Customers = ([Retained Customers] / [Total Customers])
+- Churn Rate % = ChurnDataset[Churned Customers] / COUNT(ChurnDataset[CustomerID])
+- ChurnStatus =  IF('ChurnDataset'[Churn] = "Yes", "Churned", "Retained")
+- Monthly Revenue Loss =  CALCULATE(SUM(ChurnDataset[MonthlyCharges]), ChurnDataset[Churn] = "Yes")
+- Revenue Loss % =  DIVIDE([Monthly Revenue Loss], SUM('ChurnDataset'[MonthlyCharges]), 0)
+- CitizenshipStatus =  IF('ChurnDataset'[SeniorCitizen] = 0, "Young Citizen", "Senior Citizen")
+- PaymentMode =  IF(OR('ChurnDataset'[PaymentMethod] = "Electronic Check", 'ChurnDataset'[PaymentMethod] = "Mailed Check"), "Manual", "Automatic")
 
 
 # Data Visualization ( Dashboard ):

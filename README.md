@@ -30,7 +30,7 @@ The dataset is a Microsoft Excel file that contains one table, consisting of **7
 
 # Skills
 
-- Data Cleaning
+<tab><tab> - Data Cleaning
 - Data Inspection
 - Data Transformation
 - Data Standardization

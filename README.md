@@ -10,34 +10,34 @@ Past Analysis Limitations: Previous attempts at customer analysis using Excel ha
 
 Enhanced Customer Insight: There's a pressing need for comprehensive customer analysis within the telecom sector. Visual representations of this data, designed to be self-explanatory, are essential for effective communication with the management team. The retention manager has provided some resources to facilitate this process, highlighting its importance.
 
-#Project Details
+# Project Details
 
-#What is Churn?
-Churn refers to the rate at which customers stop doing business with a company or service, typically expressed as a percentage of the customer base.
+# What is Churn?
+# Churn refers to the rate at which customers stop doing business with a company or service, typically expressed as a percentage of the customer base.
 
-#What is a Churn Rate?
+# What is a Churn Rate?
 Churn Rate, sometimes known as attrition rate, is the rate at which customers stop doing business with a company over a given period. Churn may also apply to the number of subscribers who cancel or don’t renew a subscription. The higher your churn rate, the more customers stop buying from your business. The lower your churn rate, the more customers you retain. Typically, the lower your churn rate, the better.
 
 Churn Rate = (Churned Customers / Total Number of Customers) x 100%
-#What is Customer Churn?
+# What is Customer Churn?
 Customer Churn refers to the natural business cycle of losing and acquiring customers. Every company — no matter the quality of its products or customer service experiences churn. In the context of businesses, customer churn can occur due to factors such as dissatisfaction with the product or service, competitive offerings, or changes in circumstances or preferences of the customer. Generally speaking, the less churn a company has, the more customers they keep.
 
 
 
-#About the Data
+# About the Data
 
 The dataset is a Microsoft Excel file that contains one table, consisting of 7,043 rows and 23 columns of PhoneNow Telecoms customer information, which includes, customer Demographics, Account Information, and Service Subscriptions. The data was gotten from Forage.
 
 
 
-#Skills
+# Skills
 
 - Data Cleaning
 - Data Inspection
 - Data Transformation
 - Data Standardization
 - Data Visualization
-#Data Inspection: Visually inspect the data to identify errors, inconsistencies, or missing values.
+# Data Inspection: Visually inspect the data to identify errors, inconsistencies, or missing values.
 #Data Transformation: Converting data from one format or structure to another, to make it more suitable for a specific task or analysis.
 #Data Standardization: Converting data into a standard format, such as converting all text to lowercase or standardizing date formats.
 

@@ -30,11 +30,11 @@ The dataset is a Microsoft Excel file that contains one table, consisting of **7
 
 # Skills
 
-<tab><tab> - Data Cleaning
-- Data Inspection
-- Data Transformation
-- Data Standardization
-- Data Visualization
+<tab> - Data Cleaning
+<tab> - Data Inspection
+<tab> - Data Transformation
+<tab> - Data Standardization
+<tab> - Data Visualization
 > **Data Inspection**: Visually inspect the data to identify errors, inconsistencies, or missing values.
 
 > **Data Transformation**: Converting data from one format or structure to another, to make it more suitable for a specific task or analysis.

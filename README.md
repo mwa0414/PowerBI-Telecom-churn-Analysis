@@ -2,8 +2,6 @@
 
 Customers in the telecom industry are hard-earned, and like the Retention Manager from our telecom Client, no brand wants to lose them. A few weeks after presenting the Telecom Customer Churn Analysis - Power-BI dashboard to the management, the Retention Manager from the telecom reached out directly to Shantanu. He was impressed by the work and asked for a dashboard about customer retention.
 
-Additionally, the telecom Retention Manager scheduled a meeting with the engagement partner at PwC to better understand the data. Some points covered in the meeting include:
-
 Proactive Customer Retention: In the telecom industry, retaining customers is paramount. The retention department's primary objective is to re-engage customers in the event of contract termination. Presently, their approach is reactionary, reaching out post-termination. However, a proactive strategy to identify at-risk customers beforehand would be more effective.
 
 Past Analysis Limitations: Previous attempts at customer analysis using Excel have proven fruitless, resulting in dead-ends. This underscores the necessity for a more sophisticated and efficient analytical approach.
@@ -18,7 +16,7 @@ Enhanced Customer Insight: There's a pressing need for comprehensive customer an
 # What is a Churn Rate?
 Churn Rate, sometimes known as attrition rate, is the rate at which customers stop doing business with a company over a given period. Churn may also apply to the number of subscribers who cancel or don’t renew a subscription. The higher your churn rate, the more customers stop buying from your business. The lower your churn rate, the more customers you retain. Typically, the lower your churn rate, the better.
 
-Churn Rate = (Churned Customers / Total Number of Customers) x 100%
+> Churn Rate = (Churned Customers / Total Number of Customers) x 100%
 # What is Customer Churn?
 Customer Churn refers to the natural business cycle of losing and acquiring customers. Every company — no matter the quality of its products or customer service experiences churn. In the context of businesses, customer churn can occur due to factors such as dissatisfaction with the product or service, competitive offerings, or changes in circumstances or preferences of the customer. Generally speaking, the less churn a company has, the more customers they keep.
 
@@ -26,7 +24,7 @@ Customer Churn refers to the natural business cycle of losing and acquiring cust
 
 # About the Data
 
-The dataset is a Microsoft Excel file that contains one table, consisting of **7,043 rows and 23 columns of PhoneNow Telecoms** customer information, which includes, customer Demographics, Account Information, and Service Subscriptions. The data was gotten from Forage.
+The dataset is a Microsoft Excel file that contains one table, consisting of **7,043 rows and 23 columns of PhoneNow Telecoms** customer information, which includes, customer Demographics, Account Information, and Service Subscriptions. The data was gotten from [https://www.theforage.com].
 
 
 

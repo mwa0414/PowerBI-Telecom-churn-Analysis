@@ -29,12 +29,12 @@ The dataset is a Microsoft Excel file that contains one table, consisting of **7
 
 
 # Skills
-
 - Data Cleaning
 - Data Inspection
 - Data Transformation
 - Data Standardization
 - Data Visualization
+
 > **Data Inspection**: Visually inspect the data to identify errors, inconsistencies, or missing values.
 
 > **Data Transformation**: Converting data from one format or structure to another, to make it more suitable for a specific task or analysis.
@@ -60,8 +60,8 @@ The data transformation was finished using Power Query, and now the dataset is l
 = Table.RenameColumns(#"Replaced Value3",{{"customerID", "CustomerID"}, {"gender", "Gender"}, {"tenure", "Tenure"}})
 
 3. In the new table, two additional conditional columns were added using M-formula:
-1. = CitizenshipStatus = IF('ChurnDataset'[SeniorCitizen] = 0, "Young Citizen", "Senior Citizen")
-2. = ChurnStatus = IF('ChurnDataset'[Churn] = "Yes", "Churned", "Retained")
+ 1. = CitizenshipStatus = IF('ChurnDataset'[SeniorCitizen] = 0, "Young Citizen", "Senior Citizen")
+ 2. = ChurnStatus = IF('ChurnDataset'[Churn] = "Yes", "Churned", "Retained")
 
 
 # Data Modeling
@@ -69,6 +69,8 @@ The data transformation was finished using Power Query, and now the dataset is l
 Then dataset was cleaned and transformed, it was ready for the data modeled.
 
 The customer churn tables as shown below:
+
+![Data-Modeling](https://github.com/user-attachments/assets/31da8e19-a63c-42e9-8e9a-5022af6f3230)
 
 
 
@@ -93,3 +95,6 @@ Measures used in all visualization are:
 # Data Visualization ( Dashboard ):
 
 Data visualization for the data analysis (DAX) was done in Microsoft Power BI Desktop:
+<img width="992" alt="dashboard" src="https://github.com/user-attachments/assets/eb3ad175-9ca9-425a-b886-9496ab9566be" />
+
+

@@ -35,9 +35,9 @@ The dataset is a Microsoft Excel file that contains one table, consisting of **7
 - Data Transformation
 - Data Standardization
 - Data Visualization
-**Data Inspection**: Visually inspect the data to identify errors, inconsistencies, or missing values.
-**Data Transformation**: Converting data from one format or structure to another, to make it more suitable for a specific task or analysis.
-**Data Standardization**: Converting data into a standard format, such as converting all text to lowercase or standardizing date formats.
+> Data Inspection: Visually inspect the data to identify errors, inconsistencies, or missing values.
+> Data Transformation: Converting data from one format or structure to another, to make it more suitable for a specific task or analysis.
+> Data Standardization: Converting data into a standard format, such as converting all text to lowercase or standardizing date formats.
 
 
 # Data Preparation

@@ -24,7 +24,7 @@ Customer Churn refers to the natural business cycle of losing and acquiring cust
 
 # About the Data
 
-The dataset is a Microsoft Excel file that contains one table, consisting of **7,043 rows and 23 columns of PhoneNow Telecoms** customer information, which includes, customer Demographics, Account Information, and Service Subscriptions. The data was gotten from [https://www.theforage.com].
+The dataset is a Microsoft Excel file that contains one table, consisting of **7,043 rows and 23 columns of PhoneNow Telecoms** customer information, which includes, customer Demographics, Account Information, and Service Subscriptions. The data was gotten from [Forage](https://www.theforage.com).
 
 
 

@@ -1,4 +1,3 @@
-# PowerBI-Telecom-churn-Analysis
 # Background
 
 Customers in the telecom industry are hard-earned, and like the Retention Manager from our telecom Client, no brand wants to lose them. A few weeks after presenting the Telecom Customer Churn Analysis - Power-BI dashboard to the management, the Retention Manager from the telecom reached out directly to Shantanu. He was impressed by the work and asked for a dashboard about customer retention.
